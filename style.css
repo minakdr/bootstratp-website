@@ -207,3 +207,44 @@ body {
     padding: 140px;
 
 }
+.upper_cards {
+  display: flex; 
+  justify-content: space-between; 
+  gap: 30px; 
+  flex-wrap: wrap; 
+  padding: 20px;
+}
+
+.card {
+  background: #23263a;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-svg {
+  width: 50px; /* Larger SVG */
+  height: 50px;
+  margin-bottom: 10px; /* Space below SVG */
+  align-self: left;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #ffffff;
+  text-align: left;
+}
