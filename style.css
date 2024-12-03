@@ -248,3 +248,87 @@ body {
   color: #ffffff;
   text-align: left;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about {
+    background-color: #23263A; /* Dark background */
+    color: white; /* White text for contrast */
+    padding: 40px 20px; /* Add padding around the section */
+    text-align: center; /* Center the section's heading */
+    font-family: 'Roboto', sans-serif;
+}
+
+.about h1 {
+    font-size: 60px; /* Heading font size */
+    margin-bottom: 20px; /* Add spacing below the heading */
+    font-weight: 800;
+}
+
+.pabout {
+    font-size: 15px; /* Readable paragraph size */
+    line-height: 1.6; /* Improve spacing between lines */
+    margin-bottom: 40px; /* Add spacing below the paragraph */
+    font-weight: 100;
+}
+
+.everything {
+    display: flex; /* Use Flexbox for layout */
+    align-items: center; /* Vertically align the items */
+    justify-content: space-between; /* Space between the picture and content */
+    gap: 20px; /* Add space between the picture and the content */
+    padding: 70px; /* Add padding around the container */
+    width: 100%; /* Ensure it spans the full width of the parent */
+    box-sizing: border-box; /* Include padding in width calculations */ }
+
+
+.content{
+    width: 850px;
+}
+
+    .content h1 {
+        font-size: 30px; /* Adjust size for a bold, prominent heading */
+        margin-bottom: 15px; /* Add space below the heading */
+        text-align: left;
+      }
+    
+    .content p{
+        text-align: left;
+    }
+
+    .picture {
+        width: 800px; /* Set the width directly for the picture */
+      }
+      
+
+        .infosContainer {
+            display: flex; /* Use Flexbox for layout */
+            justify-content: space-between; /* Space out the two columns */
+            padding: 10px; /* Padding inside the container */
+        }
+        
+        .infos {
+            display: flex; /* Make each .infos a flex container */
+            flex-direction: column; /* Stack the p elements vertically */
+        }
+        
+        .infos p {
+            margin: 5px 0; /* Space out each p element */
+        }
+        
+        
