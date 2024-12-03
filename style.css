@@ -1,0 +1,164 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.custom-navbar {
+    background-color: #1F2235;
+    color: white;
+    padding: 10px 150px;
+    height: 100px;
+}
+
+.navbar-nav .nav-link {
+    margin: 0 10px;
+    font-weight: 650 ;
+    color: #fff;
+    font-size: 18px;
+}
+.navbar-nav .nav-link:hover {
+    color: #e35e10; 
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    background-color: #ffffff; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 0; 
+    cursor: pointer;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #333;
+    font-size: 15px; 
+    padding: 10px 20px; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: #e35e10; 
+}
+
+
+.navbar-nav .nav-link.active {
+    color: #ffffff;
+    
+}
+
+
+.navbar-nav .nav-link.disabled {
+    color: #aaa; 
+    pointer-events: none; 
+    opacity: 0.7; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero-section {
+    padding: 50px ; 
+    background-color: #24263B; 
+}
+
+.hero-section .icon-group {
+    display: flex;
+    gap: 25px; 
+    margin-bottom: 20px;
+}
+
+.hero-section .icon {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 50px; 
+    height: 50px;
+    fill: white; 
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+
+
+
+.hero-section .text-content {
+    padding: 20px;
+}
+
+.hero-section .text-content h1 {
+    font-size: 2.5rem; 
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.hero-section .text-content p {
+    font-size: 1.2rem; 
+    color: #555; 
+    margin-bottom: 20px;
+}
+
+.hero-section .button-group {
+    display: flex;
+    gap: 15px; 
+}
+
+.hero-section .image-content {
+    width: auto; 
+    padding: 0;
+}
+
+.hero-section .image-content img {
+    width: 80%; 
+    height: auto; 
+    border-radius: 10px; 
+
+}
+
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    margin-top: 20px;
+}
+.button-group .btn {
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    border-radius: 50px; 
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;   
+}
+
+.button-group .btn-outline-danger {
+    border-color: #dc3545;
+    color: #ffffff;
+}
+
+.button-group .btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+.button-group .btn-secondary {
+    background-color: #ed0909;
+}
+
+.button-image {
+    width: 20px;
+    height: auto;
+    transform: rotate(-90deg);
+}
+
+
