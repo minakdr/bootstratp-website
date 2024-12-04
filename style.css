@@ -331,5 +331,23 @@ body {
         .infos p {
             margin: 5px 0; /* Space out each p element */
         }
+
+
+
+
+
+
+
+
+
+
+
         
-        
+.expert {
+    background-color: #202235;
+    padding: 140px;
+    display: flex; /* Use Flexbox for layout */ flex-direction: row;
+
+}
+
+.expert.
