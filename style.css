@@ -290,15 +290,15 @@ body {
 .everything {
     display: flex; /* Use Flexbox for layout */
     align-items: center; /* Vertically align the items */
-    justify-content: space-between; /* Space between the picture and content */
-    gap: 20px; /* Add space between the picture and the content */
+    justify-content: center; /* Horizontally center the items */
+    gap: 0px; /* Add space between the picture and the content */
     padding: 70px; /* Add padding around the container */
     width: 100%; /* Ensure it spans the full width of the parent */
     box-sizing: border-box; /* Include padding in width calculations */ }
 
 
 .content{
-    width: 850px;
+    width: 600px;
 }
 
     .content h1 {
@@ -312,7 +312,7 @@ body {
     }
 
     .picture {
-        width: 800px; /* Set the width directly for the picture */
+        width: 500px; /* Set the width directly for the picture */
       }
       
 
@@ -320,6 +320,7 @@ body {
             display: flex; /* Use Flexbox for layout */
             justify-content: space-between; /* Space out the two columns */
             padding: 10px; /* Padding inside the container */
+            
         }
         
         .infos {
