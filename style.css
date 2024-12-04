@@ -342,12 +342,53 @@ body {
 
 
 
+        .expert {
+            background-color: #202235;
+            padding: 140px;
+            display: flex; /* Use Flexbox for layout */
+            flex-direction: row; /* Align children in a row */
+            gap: 20px; /* Add spacing between children */
+        }
         
-.expert {
-    background-color: #202235;
-    padding: 140px;
-    display: flex; /* Use Flexbox for layout */ flex-direction: row;
+        .expert .text {
+            width: 50%; /* Use percentage for flexible layout */
+            overflow: hidden; /* Prevent content overflow */
+            color: #fff; /* Make text visible on dark background */
+            display: flex;
+            flex-direction: column; /* Align children vertically */
+            justify-content: flex-start; /* Align items to the start of the container */
+            align-items: flex-start; /* Align all child elements to the left */
+        }
+    
+        
+        .expert .bars {
+            width: 50%; /* Ensure the bars section has space */
+            display: flex; /* Enable flexbox layout for progress bars */
+            flex-direction: column; /* Stack progress bars vertically */
+            gap: 10px; /* Add spacing between progress bars */
+        }
+        
 
-}
+        button.btn.btn-outline-danger {
+        font-size: 15px;
+        transition: background-color 0.3s ease;
+        border-radius: 50px; 
+        color: white;
+        padding: 15px 40px;
+        font-weight: 700;
+        border: 2px solid rgb(255, 74, 87);}
 
-.expert.
+        .bars .progress {
+            height: 5px; /* Make the bars thinner */
+            margin-bottom: 10px; /* Add spacing between bars */
+            background-color: #f1f1f1; /* Light background for the progress container */
+            border-radius: 0; /* Ensure the progress bar has square corners */
+            background-color: #23263a; /* Set the unfilled part of the bar to black */
+        }
+        
+        .bars .progress-bar {
+            background-color: rgb(255, 74, 87); /* Set the progress bar color to red */
+            height: 100%; /* Ensure the bar fills the container */
+            border-radius: 0; /* Ensure the progress bar has square corners */
+        }
+        
