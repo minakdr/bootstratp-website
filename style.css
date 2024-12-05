@@ -267,34 +267,34 @@ body {
 
 
 .about {
-    background-color: #23263A; /* Dark background */
-    color: white; /* White text for contrast */
-    padding: 40px 20px; /* Add padding around the section */
-    text-align: center; /* Center the section's heading */
+    background-color: #23263A; 
+    color: white; 
+    padding: 40px 20px;
+    text-align: center; 
     font-family: 'Roboto', sans-serif;
 }
 
 .about h1 {
-    font-size: 60px; /* Heading font size */
-    margin-bottom: 20px; /* Add spacing below the heading */
+    font-size: 60px; 
+    margin-bottom: 20px; 
     font-weight: 800;
 }
 
 .pabout {
-    font-size: 15px; /* Readable paragraph size */
-    line-height: 1.6; /* Improve spacing between lines */
-    margin-bottom: 40px; /* Add spacing below the paragraph */
+    font-size: 15px; 
+    line-height: 1.6; 
+    margin-bottom: 40px; 
     font-weight: 100;
 }
 
 .everything {
-    display: flex; /* Use Flexbox for layout */
-    align-items: center; /* Vertically align the items */
-    justify-content: center; /* Horizontally center the items */
-    gap: 0px; /* Add space between the picture and the content */
-    padding: 70px; /* Add padding around the container */
-    width: 100%; /* Ensure it spans the full width of the parent */
-    box-sizing: border-box; /* Include padding in width calculations */ }
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 0px; 
+    padding: 70px; 
+    width: 100%;
+    box-sizing: border-box;  }
 
 
 .content{
@@ -302,8 +302,8 @@ body {
 }
 
     .content h1 {
-        font-size: 30px; /* Adjust size for a bold, prominent heading */
-        margin-bottom: 15px; /* Add space below the heading */
+        font-size: 30px; 
+        margin-bottom: 15px; 
         text-align: left;
       }
     
@@ -312,24 +312,23 @@ body {
     }
 
     .picture {
-        width: 500px; /* Set the width directly for the picture */
-      }
-      
+        width: 500px; 
+    }
 
         .infosContainer {
-            display: flex; /* Use Flexbox for layout */
-            justify-content: space-between; /* Space out the two columns */
-            padding: 10px; /* Padding inside the container */
+            display: flex; 
+            justify-content: space-between;
+            padding: 10px; 
             
         }
         
         .infos {
-            display: flex; /* Make each .infos a flex container */
-            flex-direction: column; /* Stack the p elements vertically */
+            display: flex;
+            flex-direction: column; 
         }
         
         .infos p {
-            margin: 5px 0; /* Space out each p element */
+            margin: 5px 0; 
         }
 
 
@@ -345,27 +344,28 @@ body {
         .expert {
             background-color: #202235;
             padding: 140px;
-            display: flex; /* Use Flexbox for layout */
-            flex-direction: row; /* Align children in a row */
-            gap: 20px; /* Add spacing between children */
+            display: flex; 
+            flex-direction: row; 
+            align-items: center; 
         }
         
         .expert .text {
-            width: 50%; /* Use percentage for flexible layout */
-            overflow: hidden; /* Prevent content overflow */
-            color: #fff; /* Make text visible on dark background */
+            width: 50%; 
+            overflow: hidden;
+            color: #fff; 
             display: flex;
-            flex-direction: column; /* Align children vertically */
-            justify-content: flex-start; /* Align items to the start of the container */
-            align-items: flex-start; /* Align all child elements to the left */
+            flex-direction: column; 
+            justify-content: flex-start; 
+            align-items: flex-start; 
         }
     
         
         .expert .bars {
-            width: 50%; /* Ensure the bars section has space */
-            display: flex; /* Enable flexbox layout for progress bars */
-            flex-direction: column; /* Stack progress bars vertically */
-            gap: 10px; /* Add spacing between progress bars */
+            width: 50%; 
+            display: flex; 
+            flex-direction: column; 
+            gap: 10px; 
+            justify-content: center; 
         }
         
 
@@ -379,16 +379,94 @@ body {
         border: 2px solid rgb(255, 74, 87);}
 
         .bars .progress {
-            height: 5px; /* Make the bars thinner */
-            margin-bottom: 10px; /* Add spacing between bars */
-            background-color: #f1f1f1; /* Light background for the progress container */
-            border-radius: 0; /* Ensure the progress bar has square corners */
-            background-color: #23263a; /* Set the unfilled part of the bar to black */
+            height: 5px; 
+            margin-bottom: 10px; 
+            background-color: #f1f1f1; 
+            border-radius: 0;
+            background-color: #23263a; 
+            width: 80%;
         }
         
         .bars .progress-bar {
-            background-color: rgb(255, 74, 87); /* Set the progress bar color to red */
-            height: 100%; /* Ensure the bar fills the container */
-            border-radius: 0; /* Ensure the progress bar has square corners */
+            background-color: rgb(255, 74, 87); 
+            height: 100%; 
+            border-radius: 0; 
         }
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.portfolio {
+    background-color: #23263a;
+    padding: 140px;
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+    align-items: center;
+        }
+
+.portfolio .portfoliobuttons {
+display: flex;
+justify-content: center;
+gap : 30px; }
+
+.portfolio .portfoliobuttons button {
+    border: 0px ;
+    padding: 6px 18px; 
+    font-size: 19px; 
+    font-weight: 200; 
+    border-radius: 30px; 
+    cursor: pointer;
+    transition: all 0.3s ease; 
+  }
+  
+.portfolio .portfoliobuttons button:hover {
+    background-color: #ff4a57;
+    color: #ffffff; 
+  }
+
+  .portfolio .portfoliobuttons button.active {
+    border:(2px, solid, #dc3545);
+    
+  }
+
+  .portfolio .gallery {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+    margin-top: 30px;
+  }
+  
+  .portfolio .gallery .col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+  }
+  
+  .portfolio .gallery .col img {
+    width: 350px;
+    height: auto; 
+    border-radius: 10px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; }
+  
+  .portfolio .gallery .col img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+  }
