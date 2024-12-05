@@ -470,3 +470,42 @@ gap : 30px; }
     transform: scale(1.05); 
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pricing {
+    background-color:#1f2235;
+    padding: 140px;
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+    align-items: center;
+
+
+}
